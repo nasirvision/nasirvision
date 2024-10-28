@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nasir Uddin - Photography & Social Awareness</title>
+    <title>Nasir Uddin's Photography Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,28 +12,71 @@
         <p>Exploring Social Awareness Through Rational Choice</p>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#essay">Essay</a></li>
+                <li><a href="#travel-vlog">Travel Vlog</a></li>
+                <li><a href="#photo-gallery">Photo Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+
+    <main id="home">
         <section id="intro">
-            <h2>Welcome to My World of Photography</h2>
-            <p>Join me on a journey exploring social issues through the lens of Rational Choice.</p>
+            <h2>Welcome to My Photography Portfolio</h2>
+            <p>Join me on a journey exploring social issues through the lens of Rational Choice. Below is a showcase of my recent work.</p>
         </section>
-        <section id="featured">
-            <h2>Featured Photography</h2>
-            <div class="gallery">
-                <!-- Add your photos here -->
+
+        <!-- Academic History Section -->
+        <section id="about">
+            <h2>About Me & Academic History</h2>
+            <p>I am Nasir Uddin, a passionate photographer and student focused on social awareness. Here's my academic background:</p>
+            <ul>
+                <li>Bachelor's Degree in [Your Major], University of South Dakota (Expected Graduation: 2024)</li>
+                <li>Courses: [List some courses related to your field]</li>
+                <li>Future plans: [You can add any goals here]</li>
+            </ul>
+        </section>
+
+        <!-- Essay Section -->
+        <section id="essay">
+            <h2>My Essay</h2>
+            <article>
+                <h3>Title of Your Essay</h3>
+                <p>
+                    [Write or paste your essay here. If it’s too long, consider summarizing and linking to a downloadable PDF.]
+                </p>
+                <a href="path/to/your-essay.pdf" target="_blank">Read Full Essay (PDF)</a>
+            </article>
+        </section>
+
+        <!-- Travel Vlog Section -->
+        <section id="travel-vlog">
+            <h2>My Travel Vlog</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id"
+                    title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section with Slideshow -->
+        <section id="photo-gallery">
+            <h2>Travel Photo Gallery</h2>
+            <div class="slideshow-container">
+                <img id="gallery-slide" src="path/to/photo1.jpg" alt="Slideshow Image" style="width:100%; border-radius: 10px;">
+                <button id="prev" class="prev" onclick="prevSlide()">&#10094;</button>
+                <button id="next" class="next" onclick="nextSlide()">&#10095;</button>
             </div>
         </section>
     </main>
-    <footer>
+
+    <!-- Footer -->
+    <footer id="contact">
         <p>© 2024 Nasir Uddin. All Rights Reserved.</p>
     </footer>
+
+    <!-- JavaScript for Slideshow and Smooth Scroll -->
+    <script src="script.js"></script>
 </body>
 </html>
